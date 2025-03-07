@@ -33,14 +33,14 @@ body{
 {
     content: '';
     position: absolute;
-    background: linear-gradient(45deg,blue,pink);
+    background: linear-gradient(45deg,pink,blue,pink,blue);
     background-size: 200% 200%;
-    top: -5px;
-    left: -5px;
-    bottom: -5px;
-    right: -5px;
+    top: -4px;
+    left: -4px;
+    bottom: -4px;
+    right: -4px;
     z-index: -1;
-    filter: blur(30px);
+    filter: blur(10px);
     animation: glowing  5s ease infinite;
 }
 @keyframes glowing{
@@ -62,7 +62,7 @@ body{
     padding: 0 10px;
     line-height: 125px;
     font-size: 8rem;
-    background: -webkit-linear-gradient(90deg,blue,white);
+    background: -webkit-linear-gradient(90deg,blue,pink);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -113,8 +113,14 @@ body{
 }
 
 #period {
-    color: orange;
+    background: -webkit-linear-gradient(90deg,pink,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
 }
 #seconds{
-    color:white;
+    background: -webkit-linear-gradient(90deg,blue,pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
 }
