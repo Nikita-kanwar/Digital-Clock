@@ -124,3 +124,12 @@ body{
     -webkit-background-clip: text;
 
 }
+
+@media (max-width:750px) {
+    .d-clock{
+        width: 350px; 
+    }
+    #h{
+      line-height: 100px;
+    }
+}
