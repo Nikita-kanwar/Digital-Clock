@@ -10,9 +10,18 @@ function clock(){
     let s = new Date().getSeconds();
     let ampm = ho >= 12 ?"PM":"AM"; 
 
+    if(ho > 12){
+        ho = ho - 12;
+    }
+
+    ho = (ho < 10) ? "0" + ho : ho;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+
+
     hours.innerHTML = ho;
     minutes.innerHTML = m;
     seconds.innerHTML = s;
     period.innerHTML = ampm;
 };
-clock();
+setInterval(clock,1000);
