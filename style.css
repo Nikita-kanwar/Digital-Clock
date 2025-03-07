@@ -33,7 +33,7 @@ body{
 {
     content: '';
     position: absolute;
-    background: linear-gradient(45deg,blue,orange,green);
+    background: linear-gradient(45deg,blue,pink);
     background-size: 200% 200%;
     top: -5px;
     left: -5px;
@@ -81,7 +81,7 @@ body{
     font-size: 5rem;
     font-weight: 500;
     margin-left: 10px;
-    background: -webkit-linear-gradient(90deg,pink,red);
+    background: -webkit-linear-gradient(90deg,pink,blue);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
