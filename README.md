@@ -10,7 +10,7 @@ A simple and elegant digital clock built using HTML, CSS, and JavaScript. This c
 - Built with HTML, CSS, and JavaScript.
 
 ## Demo
-[Live Demo](https://nikita-kanwar.github.io/Digital-Clock/)
+[Live Demo](https://digitalclock-demo.netlify.app/)
 
 ## Installation
 1. Clone the repository:
