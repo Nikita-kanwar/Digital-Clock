@@ -16,15 +16,15 @@ body, .t, .left, .right, .right-t ,.right-d {
 }
 
 body{
-    min-height: 80vh;
-    background: #2e2e45;
+    min-height: 100vh;
+    background: #111;
 }
 
 .d-clock{
     color: #fff;
     background: #2d2f38;
     width: 425px;
-    padding: 20px 45px;
+    padding: 20px 40px;
     border-radius: 10px;
 
 }
