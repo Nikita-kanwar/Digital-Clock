@@ -9,9 +9,6 @@ A simple and elegant digital clock built using HTML, CSS, and JavaScript. This c
 - User-friendly and visually appealing design.
 - Built with HTML, CSS, and JavaScript.
 
-## Demo
-[Live Demo](https://digitalclock-demo.netlify.app/)
-
 ## Installation
 1. Clone the repository:
    ```sh
